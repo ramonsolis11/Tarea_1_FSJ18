@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/img/logo.svg" alt="logo">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="ventas.html">Ventas</a>
+            <a href="#" class="activo">Alquiler</a>
+            <a href="contacto.html">contáctanos</a>
+        </nav>
+    </header>
+    <section>
+        <div id="burger">
+            <div class="barra superior"></div>
+            <div class="barra media"></div>
+            <div class="barra inferior"></div>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <hr>
+                <a href="ventas.html">Ventas</a>
+                <hr>
+                <a href="propiedad.html">Alquiler</a>
+                <hr>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">&copy; Mon Dev</p>
+        </div>
+        <div class="fila propiedad">
+            <div class="col-50">
+                <h1 class="m-b">Villa en Los Altos de Marbella</h1>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/blueprint.svg" alt="Icono plano">
+                    950 m2 habitables
+                </p>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/bed.svg" alt="Icono nº de dormitorios">
+                    7 dormitorios
+                </p>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/bath.svg" alt="Icono nº de baños">
+                    9 baños
+                </p>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/tree.svg" alt="Icono de jardín">
+                    Jardín de 2.500 m2
+                </p>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/money.svg" alt="Icono de monedas">
+                    2.000.000 €
+                </p>
+                <p class="flex-start">
+                    <img class="m-r-small" src="./assets/img/contract.svg" alt="Icono de contrato">
+                    Entrega inmediata
+                </p>
+                <p class="flex-end">
+                    <button onclick="openModal()">Ver imágenes</button>
+                </p>
+            </div>
+            <div class="col-50"></div>
+        </div>
+        <div class="fila">
+            <div class="col-50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus a molestias harum laborum, soluta culpa sapiente veritatis dicta suscipit, assumenda enim explicabo eveniet unde aliquam, consequuntur alias voluptas! Repudiandae vero blanditiis asperiores sequi consequatur magnam voluptatem dignissimos natus ab fugit sapiente eveniet accusantium animi sit omnis ullam nulla distinctio, perferendis odit a! Mollitia natus fugiat, voluptate commodi perspiciatis esse.</p>
+            </div>
+            <div class="col-50">
+                <img src="./assets/img/property2.jpg" alt="Imagen de vivienda">
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col-50">
+                <img src="./assets/img/property3.jpg" alt="Imagen de vivienda">
+            </div>
+            <div class="col-50">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus a molestias harum laborum, soluta culpa sapiente veritatis dicta suscipit, assumenda enim explicabo eveniet unde aliquam, consequuntur alias voluptas! Repudiandae vero blanditiis asperiores sequi consequatur magnam voluptatem dignissimos natus ab fugit sapiente eveniet accusantium animi sit omnis ullam nulla distinctio, perferendis odit a! Mollitia natus fugiat, voluptate commodi perspiciatis esse.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="fila">
+        <div class="col-33">
+            <p>Imperial Real State</p>
+            <p class="flex-start">
+                <img class="m-r-small" src="img/map.svg" alt="Icono de mapa">
+                Edificio Torre Centro Morazán
+            </p>
+            <p>Boulevard Morazán, Tegucigalpa</p>
+            <p class="flex-start">
+                <img  class="m-r-small" src="img/phone.svg" alt="Icono de teléfono">
+                +50499000000
+            </p>
+            <p class="flex-start">
+                <img  class="m-r-small" src="img/mail.svg" alt="Icono de email">
+                info@mondev.com
+            </p>
+        </div>
+        <div class="col-33">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3053.3547007218026!2d-87.18476752611926!3d14.100889986328388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fa2d8a9663f1f%3A0x4f3ab1114acdd234!2sEdificio%20Centro%20Moraz%C3%A1n!5e1!3m2!1ses!2shn!4v1685218926320!5m2!1ses!2shn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-33">
+            <div class="flex-around">
+                <img class="rrss" src="./assets/img/facebook.svg" alt="Icono de Facebook">
+                <img class="rrss" src="./assets/img/twitter.svg" alt="Icono de Twitter">
+                <img class="rrss" src="./assets/img/instagram.svg" alt="Icono de Whatsapp">
+                <img class="rrss" src="./assets/img/whatsapp.svg" alt="Icono de Instagram">
+            </div>
+            <p class="copyright m-t">&copy; Mon Dev All rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
