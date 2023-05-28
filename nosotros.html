@@ -4,66 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
-    <script src="./assets/js/jquery-3.4.1.min.js"></script>
-    <script src="./assets/js/main.js"></script>
+    <title>Inicio</title>
 </head>
 <body>
     <header>
         <img src="./assets/img/logo.svg" alt="logo">
         <nav>
             <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
+            <a href="#" class="activo">Nosotros</a>
             <a href="ventas.html">Ventas</a>
-            <a href="#"  class="activo">Contáctanos</a>
+            <a href="contacto.html">contáctanos</a>
         </nav>
     </header>
-    <div id="burger">
-        <div class="barra superior"></div>
-        <div class="barra media"></div>
-        <div class="barra inferior"></div>
-    </div>
-    <div class="menu">
-        <nav>
-            <a href="index.html">Inicio</a>
-            <hr>
-            <a href="nosotros.html">Nosotros</a>
-            <hr>
-            <a href="ventas.html">Ventas</a>
-            <hr>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-        <p class="copyright">&copy; MonDev All rights reserved</p>
-    </div>
-
     <section>
-        <div class="fila">
-            <div class="col-100 flex-column-center">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, explicabo?</p>
-                <form class="contacto">
-                    <div class="fila">
-                        <input class="usuario" type="text" placeholder="Nombre y apellidos">
-                    </div>
-                    <div class="fila">
-                        <input class="email" type="email" placeholder="Correo electrónico">
-                    </div>
-                    <div class="fila flex-end">
-                        <button type="submit">Enviar</button>
-                    </div>
-                    <div class="fila flex-center">
-                        <input type="checkbox" id="condiciones">
-                        <label for="condiciones">
-                            Acepto las condiciones legales.
-                        </label>
-                    </div>
-                </form>
-            </div>
+        <div id="burger">
+            <div class="barra superior"></div>
+            <div class="barra media"></div>
+            <div class="barra inferior"></div>
+        </div>
+        <div class="menu">
+            <nav>
+                <a href="index.html">Inicio</a>
+                <hr>
+                <a href="nosotros.html">Nosotros</a>
+                <hr>
+                <a href="ventas.html">Ventas</a>
+                <hr>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">&copy; MonDev All rights reserved</p>
         </div>
     </section>
 
-</section>
-<footer class="fila">
+    <footer class="fila">
     <div class="col-33">
         <p>Imperial Real State</p>
         <p class="flex-start">
@@ -92,6 +66,6 @@
         </div>
         <p class="copyright m-t">&copy; MonDev All rights reserved</p>
     </div>
-</footer>
+    </footer>
 </body>
 </html>
