@@ -476,7 +476,6 @@ header.transparente nav a:hover {
 
 /* Formulario contacto */
 
-
 form.contacto {
     width: 50%;
 }
@@ -553,6 +552,184 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"]:checked + label::before {
     content: url('/assets/img/check-square.svg');
 }
+
+
+
+/* Estilos generales para todas las secciones */
+section {
+    text-align: center;
+    padding: 90px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 10px;
+}
+
+section p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+  /* Estilos específicos para la sección "nosotros" */
+#nosotros {
+    padding: 20px;
+}
+
+  /* Estilos específicos para la sección "equipo" */
+#equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#equipo ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#equipo li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#equipo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 0.5em;
+}
+
+#equipo h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+}
+
+#equipo p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+  /* Estilos para pantallas móviles */
+@media screen and (max-width: 768px) {
+    section {
+    padding: 80px;
+}
+
+    section h2 {
+    font-size: 1.5rem;
+}
+
+#equipo ul {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#equipo li {
+    margin-right: 0;
+}
+
+#equipo img {
+    width: 80px;
+    height: 80px;
+}
+}
+
+    /* Información de contacto */
+
+    section#contactanos {
+        padding: 90px;
+        background-color: #f4f4f4;
+        text-align: center;
+    }
+    
+    section#contactanos h2 {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    
+    .contact-item {
+        flex-basis: 33.33%;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .contact-item i {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #4caf50;
+    }
+    
+    .contact-item p {
+        font-size: 14px;
+        color: #333;
+    }
+    
+    /* Logo de la empresa */
+    .logo img {
+        max-width: 200px;
+        margin-bottom: 40px;
+    }
+    
+    /* Formulario de contacto */
+    .contact-form {
+        margin-bottom: 40px;
+    }
+    
+    .contact-form h3 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #fff;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .contact-form button {
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        padding: 12px 20px;
+        cursor: pointer;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    
+    .contact-form button:hover {
+        background-color: #45a049;
+    }
 
 /* Footer */
 
