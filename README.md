@@ -1,5 +1,5 @@
 # Tarea_1_FSJ18
-Comenzando primero proyecto website solo con HTML/CSS
+Comenzando primer proyecto website solo con HTML/CSS y un poco de JavaScript
 
 Comentario: "Estructura básica de la página y contenido principal en HTML"
 
