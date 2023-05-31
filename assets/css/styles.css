@@ -456,16 +456,22 @@ header.transparente nav a:hover {
 
   /* Estilos específicos para la sección "nosotros" */
 #nosotros {
-    padding: 20px;
+    padding: 20px;   
 }
 
 section{
     padding: 38px;
+
+
     
 }
 
 aside{
     padding: 100px;
+}
+
+h1 {
+    text-align: left;
 }
 
 
@@ -485,7 +491,7 @@ aside{
         margin-top: 20px;
     }
     
-    h1, h2 {
+    h2 {
         text-align: center;
     }
     
@@ -632,6 +638,18 @@ footer .copyright {
 
 .card .footer-card a:hover {
     background-color: #664626;
+}
+
+.fila-grid{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    grid-gap: 1.5rem;
+    justify-content: center;
+}
+
+h3 {
+    text-align: initial;
 }
 
 /* Ficha propiedad */
