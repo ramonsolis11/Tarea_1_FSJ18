@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contactanos</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="./assets/js/jquery-3.4.1.min.js"></script>
     <script src="./assets/js/main.js"></script>
@@ -19,6 +19,7 @@
             <a href="#"  class="activo">Contáctanos</a>
         </nav>
     </header>
+    
     <div id="burger">
         <div class="barra superior"></div>
         <div class="barra media"></div>
@@ -37,41 +38,34 @@
         <p class="copyright">&copy; MonDev All rights reserved</p>
     </div>
 
-        <section id="contactanos">
-            <h2>Contacta con nosotros</h2>
+    <aside class="test-1">
+        <div class="contenedor-contac">
             <div class="contact-info">
-            <div class="contact-item">
-                <i class="fas fa-map-marker-alt"></i>
-                <p>Edificio Torre Centro Morazán
-
-                    Boulevard Morazán, Tegucigalpa</p>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-phone-alt"></i>
-                <p>+5048740-3632</p>
-            </div>
-            <div class="contact-item">
-                <i class="fas fa-envelope"></i>
-                <p>csingenieria.hn@gmail.com</p>
-            </div>
-            </div>
-            <div class="logo">
-            <img src="./assets/img/csi-web.png" alt="Logo de Construcción y Servicios de Ingeniería CSI">
+            <h2>Contáctanos</h2>
+            <p>Ingeniería CSI</p>
+            <p>Edificio Torre Centro Morazán, Boulevard Morazán, Tegucigalpa</p>
+            <p>+5048740-3632</p>
+            <p>csingenieria.hn@gmail.com</p>
             </div>
             <div class="contact-form">
-            <h3>Envíanos un mensaje</h3>
-            <form action="/enviar-mensaje" method="POST">
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="tel" name="telefono" placeholder="Número de celular" required>
-                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
-                <button type="submit"><a href="contacto.html">Enviar mensaje</a></button>
-                
+            <h1>Formulario de Contacto</h1>
+            <form action="#" method="POST">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+        
+                <input type="submit" value="Enviar">
             </form>
             </div>
-        </section>
-        
-        
+        </div>
+    </aside>
+    
+
 
         <footer class="fila">
             <div class="col-33">

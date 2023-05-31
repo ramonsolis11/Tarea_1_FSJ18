@@ -25,11 +25,6 @@ html {
     font-size: 20px;
 }
 
-@media (max-width: 440px) {
-    html {
-        font-size: 18px;
-    }
-}
 
 body {
     font-family: "Avenir", sans-serif;
@@ -125,23 +120,7 @@ p {
     height: auto;
 }
 
-@media (max-width: 720px) {
-    .hero .hero-logo {
-        width: 60%;
-    }
-    .hero .hero-down {
-        width: 15%;
-    }
-}
 
-@media (max-width: 400px) {
-    .hero .hero-logo {
-        width: 80%;
-    }
-    .hero .hero-down {
-        width: 20%;
-    }
-}
 
 /* Header */
 
@@ -228,6 +207,7 @@ header.transparente nav a:hover {
     transform: translateY(-8px) rotateZ(-45deg);
 }
 
+/* Media Query Menu Hamburguesa */
 @media (max-width: 620px) {
     #burger {
         display: block;
@@ -474,263 +454,95 @@ header.transparente nav a:hover {
     color: white;
 }
 
-/* Formulario contacto */
-
-form.contacto {
-    width: 50%;
-}
-
-@media (max-width: 720px) {
-    form.contacto {
-        width: 75%;
-    }
-}
-
-@media (max-width: 440px) {
-    form.contacto {
-        width: 100%;
-    }
-}
-
-form.contacto .fila {
-    padding: 0.8rem;
-}
-
-input {
-    border: none;
-    border-bottom: 1.5px solid #a97c50;
-    font-size: 1rem;
-    padding: 0.5em 1em;
-    width: 100%;
-}
-
-input:focus {
-    outline: none;
-    border-bottom: 1.5px solid #643e18;
-}
-
-input.usuario {
-    background-image: url('/assets/img/user.svg');
-    background-repeat: no-repeat;
-    background-position: 0 7px;
-    padding-left: 2em;
-}
-
-input.email {
-    background-image: url('/assets/img/mail-bronce.svg');
-    background-repeat: no-repeat;
-    background-position: 0 7px;
-    padding-left: 2em;
-}
-
-button {
-    border: none;
-    background-color: #a97c50;
-    color:white;
-    font-size: 1rem;
-    font-weight: normal;
-    padding: 0.5em 1em;
-    border-radius: 0.3em;
-    cursor: pointer;
-    transition: all ease-in-out 400ms;
-}
-
-button:hover {
-    background-color: #81501e;
-}
-
-input[type="checkbox"] {
-    display: none;
-}
-
-input[type="checkbox"] + label::before {
-    content: url('/assets/img/square.svg');
-    position: relative;
-    top: 5px;
-    padding-right: 5px;
-}
-input[type="checkbox"]:checked + label::before {
-    content: url('/assets/img/check-square.svg');
-}
-
-
-
-/* Estilos generales para todas las secciones */
-section {
-    text-align: center;
-    padding: 90px;
-}
-
-section h2 {
-    font-size: 2rem;
-    margin-bottom: 1em;
-    text-align: center;
-    padding: 10px;
-}
-
-section p {
-    margin-bottom: 1em;
-    line-height: 1.5;
-    text-align: justify;
-}
-
   /* Estilos específicos para la sección "nosotros" */
 #nosotros {
     padding: 20px;
 }
 
-  /* Estilos específicos para la sección "equipo" */
-#equipo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-#equipo ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 1em;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-#equipo li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#equipo img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 0.5em;
-}
-
-#equipo h3 {
-    font-size: 1.2rem;
-    margin-bottom: 0.5em;
-}
-
-#equipo p {
-    margin-bottom: 1em;
-    line-height: 1.5;
-    text-align: center;
-}
-
-  /* Estilos para pantallas móviles */
-@media screen and (max-width: 768px) {
-    section {
-    padding: 80px;
-}
-
-    section h2 {
-    font-size: 1.5rem;
-}
-
-#equipo ul {
-    flex-direction: column;
-    align-items: stretch;
-}
-
-#equipo li {
-    margin-right: 0;
-}
-
-#equipo img {
-    width: 80px;
-    height: 80px;
-}
-}
-
-    /* Información de contacto */
-
-    section#contactanos {
-        padding: 90px;
-        background-color: #f4f4f4;
-        text-align: center;
-    }
+section{
+    padding: 38px;
     
-    section#contactanos h2 {
-        font-size: 32px;
-        margin-bottom: 30px;
-    }
+}
 
-    .contact-info {
+aside{
+    padding: 100px;
+}
+
+
+    /* Estilos del formulario */
+    .container {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        justify-content: space-between;
+        max-width: 900px;
+        margin: 2px 1em 0 auto;
     }
     
-    .contact-item {
-        flex-basis: 33.33%;
-        padding: 20px;
+    
+    
+    .contact-form {
+        flex-basis: 55%;
+        margin-top: 20px;
+    }
+    
+    h1, h2 {
         text-align: center;
     }
     
-    .contact-item i {
-        font-size: 24px;
+    p {
         margin-bottom: 10px;
-        color: #4caf50;
     }
     
-    .contact-item p {
-        font-size: 14px;
-        color: #333;
+    form {
+        margin-top: 20px;
     }
     
-    /* Logo de la empresa */
-    .logo img {
-        max-width: 200px;
-        margin-bottom: 40px;
-    }
-    
-    /* Formulario de contacto */
-    .contact-form {
-        margin-bottom: 40px;
-    }
-    
-    .contact-form h3 {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-    
-    .contact-form input,
-    .contact-form textarea {
+    label,
+    input,
+    textarea {
+        display: block;
         width: 100%;
-        padding: 12px;
-        margin-bottom: 20px;
-        border: none;
-        border-radius: 4px;
-        background-color: #fff;
+        margin-bottom: 10px;
     }
     
-    .contact-form textarea {
-        resize: vertical;
+    label {
+        font-weight: bold;
     }
     
-    .contact-form button {
-        background-color: #4caf50;
-        color: #fff;
+    input,
+    textarea {
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+    
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
         border: none;
-        padding: 12px 20px;
+        padding: 10px;
         cursor: pointer;
-        border-radius: 4px;
-        font-size: 16px;
     }
     
-    .contact-form button:hover {
-        background-color: #45a049;
+
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
     }
 
+    .contact-info,
+    .contact-form {
+        flex-basis: 100%;
+    }
+
+    .contact-form {
+        margin-top: 0;
+    }
+}
+
+        
 /* Footer */
 
 footer {
