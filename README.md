@@ -1,4 +1,10 @@
 Link: https://ingenieria-csi.netlify.app/
+![image](https://github.com/ramonsolis11/Tarea_1_FSJ18/assets/80738178/267d4f0c-d735-4e41-b810-0f5ae3bbb91a)
+![image](https://github.com/ramonsolis11/Tarea_1_FSJ18/assets/80738178/3ba28cf7-e7f7-4d47-a0ac-04ef5aca0e61)
+![image](https://github.com/ramonsolis11/Tarea_1_FSJ18/assets/80738178/640fe73d-add9-468f-8c7e-cf470fdc544f)
+![image](https://github.com/ramonsolis11/Tarea_1_FSJ18/assets/80738178/e9451c96-d6b1-452a-bb19-e5ff3396cd63)
+![image](https://github.com/ramonsolis11/Tarea_1_FSJ18/assets/80738178/69bd5d33-bd2f-445c-bfc8-f569b2ffe38d)
+
 
 # Tarea_1_FSJ18
 Comenzando primer proyecto website solo con HTML/CSS y un poco de JavaScript
